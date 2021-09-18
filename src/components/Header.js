@@ -19,7 +19,7 @@ const Header = () => {
   console.log(document.getElementById("skills"));
   return (
     <div className="flex w-full h-20 dark:bg-black mb-16">
-      <div className="flex w-full justify-between px-4 items-center text-2xl items-center">
+      <div className="flex w-full justify-between px-4 text-2xl items-center">
         <span className="font-flashy dark:text-white text-4xl cursor-default flex-1 ">
           {content.myname}
         </span>
